@@ -1,22 +1,23 @@
-body{
+body {
     margin: 0;
+    font-size: 12px;
 }
 
 .parallax {
     /* The image used */
     background-image: url("/assets/img/4280871.jpg");
-  
+
     /* Set a specific height */
     min-height: 500px;
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  .caption {
+.caption {
     position: absolute;
     left: 0;
     top: 30%;
@@ -24,18 +25,39 @@ body{
     text-align: center;
     color: #000;
 }
+
 span.border {
     background-color: #111;
     color: #fff;
     font-family: 'New Tegomin', serif;
     padding: 18px;
-    font-size: 25px;
+    font-size: 2em;
     letter-spacing: 10px;
 }
 
-.logo{
+.logo {
     height: 40px;
 }
-p{
-font-family: 'New Tegomin', serif;
+
+p {
+    font-family: 'New Tegomin', serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+}
+
+.introText{
+    height:500px;
+    background-color:white;
+    font-size: 3em;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+    .introText{
+        font-size: 2em;
+    }
 }
