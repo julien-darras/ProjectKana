@@ -15,17 +15,7 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="container-fluid">
-
-            <a href="index.html"><img class="logo rounded mx-auto d-block img-fluid" src="assets/img/logo_small.png"
-                    alt="logo"></a>
-
-
-        </div>
-    </header>
-    <nav class="navbar navbar-default sticky-top navbar-expand-lg navbar-light">
+    <header><nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -33,7 +23,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <img  class="logo" src="assets/img/logo_small.png" alt="">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Accueil</a>
                     </li>
@@ -58,49 +49,38 @@
                     <li class="nav-item">
                         <a class="nav-link active" id="inscription" href="inscription.html">S'inscrire</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item justify-content-end">
                         <a class="nav-link active" href="#">Connexion</a>
                     </li>
+                    
 
             </div>
         </div>
     </nav>
-    <main>
-        <section>
-            <div class="wrapper">
-                <img class="temple" src="assets/img/temple.jpg" alt="">
-                <div class="divtext">
-                    <h1>ようこそ!</h1>
-                    <p class="intro"><br><br>Bienvenue sur Kana Gaku. Sur ce site vous pourrez apprendre vos hiraganas
-                        et vos
-                        katakanas.
-                        Vous aurez également l'occasion d'apprendre du vocabulaire et de vous exercer.<br>がんばってください!</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Présentation de NHK NEWS WEB EASY</h2>
-        </section>
+</header>
+<main>
+    <div class="parallax">
+        <div class="caption">
+            <span class="border">
+                ようこそ!
 
-
-    </main>
-
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4">Kana Gaku ©2000-2021
-                </div>
-                <div class="col-4">Mentions légales<img class="logoIcon" src="assets/img/logo_small_icon_only.png" alt=""></div>
-                <div class="col-4">Contact</div>
-            
-            </div>
+            </span>
         </div>
-    </footer>
+    </div>
+    <div style="height:500px;background-color:white;font-size:36px">
+
+        <p>Bienvenue sur Kana Gaku. Sur ce site vous pourrez apprendre vos hiraganas
+            et vos
+            katakanas.
+            Vous aurez également l'occasion d'apprendre du vocabulaire et de vous exercer.<br>がんばってください!</p>
+    </div>
+    <p>test test</p>
+</main>
+<footer></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

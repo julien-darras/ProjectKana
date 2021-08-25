@@ -1,136 +1,38 @@
-body {
+body{
     margin: 0;
-    font-size: 17px;
 }
 
-
-.navbar-default {
-    background-color: #FF0016;
-}
-
-.logo {
-    display: flex;
-    justify-items: center;
-    width: 40%;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.temple {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 400px;
+.parallax {
+    /* The image used */
+    background-image: url("/assets/img/4280871.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
-}
+    background-size: cover;
+  }
 
-.wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    min-height: 320px;
-    margin-bottom: 100px;
-}
-
-.divtext {
-    margin-top: 40px;
+  .caption {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 75%;
+    left: 0;
+    top: 30%;
+    width: 100%;
     text-align: center;
-    background-color: white;
-    color: black;
-    border: solid 1px black;
-    border-radius: 30px;
-    font-family: 'New Tegomin', serif;
-    font-weight: bold;
+    color: #000;
 }
-
-@media (min-width: 1200px) {
-    .divtext {
-        font: size 5em;
-        ;
-    }
-}
-
-@media screen and (min-width:300px) and (max-width: 600px) {
-
-    .divtext {
-        font-size: 0.5em;
-        height: 50%;
-    }
-}
-
-@media screen and (min-width:600px) and (max-width: 1000px) {
-    .divtext {
-        font-size: 0.8em;
-    }
-}
-
-.logoIcon {
-    width: 50px;
-    height: 50px;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 420px;
-    margin: auto;
-}
-
-figcaption {
-    background-color: #222;
+span.border {
+    background-color: #111;
     color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-}
-
-p {
     font-family: 'New Tegomin', serif;
-    font-weight: bold;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
 
-.indent {
-    text-indent: 30px;
-}
-
-h3 {
-    font-size: 5em;
-}
-
-legend {
-    background-color: lightcyan;
-}
-
-fieldset {
-    border: solid black 1px;
-}
-
-.logoIcon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer{
-    background-color: #FF0016;
+.logo{
+    height: 40px;
 }
