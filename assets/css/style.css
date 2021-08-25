@@ -2,10 +2,23 @@ body {
     margin: 0;
     font-size: 12px;
 }
-
+header{
+    height: 8vh;
+}
+main{
+    min-height: 82vh;
+}
+footer{
+    height: 10vh;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: pink;
+}
 .parallax {
     /* The image used */
-    background-image: url("/assets/img/4280871.jpg");
+    /* background-image: url("/assets/img/4280871.jpg"); */
 
     /* Set a specific height */
     min-height: 500px;
@@ -20,16 +33,17 @@ body {
 .caption {
     position: absolute;
     left: 0;
-    top: 30%;
+    top: 35%;
     width: 100%;
     text-align: center;
     color: #000;
 }
 
 span.border {
-    background-color: #111;
-    color: #fff;
+    /* background-color: #FCEAE8; */
+    color: black;
     font-family: 'New Tegomin', serif;
+    font-weight: bold;
     padding: 18px;
     font-size: 2em;
     letter-spacing: 10px;
@@ -60,4 +74,48 @@ h1 {
     .introText{
         font-size: 2em;
     }
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+figure img {
+    max-width: 400px;
+    max-height: 200px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.indent{
+    text-indent: 50px;
+}
+
+.textKana{
+    font-size: 2em;
+}
+
+fieldset{
+    border: solid black 1px;
+}
+
+.logoSmall{
+    max-height: 100%;
+
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
